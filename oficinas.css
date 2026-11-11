@@ -1,12 +1,9 @@
-
-/* RESET */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* CORES E FONTES */
 :root {
     --concreto: #E2DFD8;
     --concreto-escuro: #CBC7BE;
@@ -19,7 +16,6 @@
     --fonte-texto: "Archivo", Arial, sans-serif;
 }
 
-/* GERAL */
 body {
     background-color: var(--concreto);
     color: var(--tinta);
@@ -46,7 +42,6 @@ h3 {
     padding-inline: 32px;
 }
 
-/* TOPO */
 .topo {
     padding-block: 28px;
     display: flex;
@@ -81,7 +76,6 @@ h3 {
     border-bottom-color: var(--fita);
 }
 
-/* FOTOS */
 .foto {
     background-color: var(--concreto-escuro);
 }
@@ -98,7 +92,6 @@ h3 {
     background-color: var(--tinta);
 }
 
-/* PÁGINA DE OFICINAS */
 .titulo-pagina {
     font-size: 160px;
     margin-top: 24px;
@@ -110,7 +103,6 @@ h3 {
     margin-top: 16px;
 }
 
-/* FILTROS */
 .filtros {
     margin-top: 48px;
     display: flex;
@@ -130,7 +122,6 @@ h3 {
     color: var(--branco);
 }
 
-/* LISTA DE OFICINAS */
 .lista {
     margin-top: 40px;
 }
